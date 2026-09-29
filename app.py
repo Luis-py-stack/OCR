@@ -266,7 +266,7 @@ def main():
         st.header("🔑 Configuración de APIs")
         api_key_a = st.text_input("Gemini API Key (Agente A)", type="password")
         api_key_b = st.text_input("Gemini API Key (Agente B - opcional)", type="password", help="Si se deja vacía, se usará la API Key del Agente A.")
-        modelo_gemini = st.text_input("Modelo Gemini", value="gemini-2.5-flash")
+        modelo_gemini = st.text_input("Modelo Gemini", value="gemini-3.6-flash")
 
         st.header("✉️ Configuración de Correo SMTP")
         email_sender = st.text_input("Correo remitente", value="agent.holtmontai@gmail.com")
